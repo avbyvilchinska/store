@@ -461,6 +461,11 @@ footer.site-footer{ border-top: 1px solid var(--line); padding: 40px 0; }
   transition: background .2s ease, color .2s ease;
 }
 .emb-realized:hover{ background: var(--ink); color:#fff; }
+.emb-realized-row{ display:flex; flex-wrap:wrap; gap:8px; }
+@media (max-width: 560px){
+  .emb-realized-row{ flex-direction:column; gap:6px; }
+  .emb-realized{ text-align:center; }
+}
 
 @media (max-width: 900px){ .emb-grid{ grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 560px){
