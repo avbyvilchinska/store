@@ -626,3 +626,6 @@ header.site-header.scrolled .header-inner{ padding-top: 12px; padding-bottom: 12
   padding: 11px 20px; font-size: 13.5px; border-radius:2px; transition: background .2s ease, color .2s ease;
 }
 .pairs-links a:hover{ background: var(--ink); color:#fff; }
+
+.emb-card .emb-realized-row,
+.emb-card > .emb-realized{ margin-top:auto; }
