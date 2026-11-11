@@ -475,6 +475,14 @@
   </div>
 </footer>
 
+<script>
+(function () {
+  var grid = document.querySelector('.emb-grid');
+  if (!grid) return;
+  var cards = Array.prototype.slice.call(grid.children);
+  cards.reverse().forEach(function (c) { grid.appendChild(c); });
+})();
+</script>
 <script src="../assets/js/main.js"></script>
 </body>
 </html>
